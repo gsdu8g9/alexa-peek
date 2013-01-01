@@ -1,0 +1,29 @@
+{
+  "name": "webpeek",
+  "description": "Static website analysis of top Alexa websites",
+  "author": "khoomeister",
+  "version": "0.0.1",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khoomeister/webpeek.git"
+  },
+  "engines": {
+    "node": ">=0.8.16"
+  },
+  "dependencies": {
+    "csv": "~0.2.4",
+    "cheerio": "~0.10.5",
+    "request": "~2.12.0",
+    "unzip": "~0.1.0",
+    "promqueen": "0.0.4"
+  },
+  "devDependencies": {
+    "coffee-script": "latest"
+  }
+}
