@@ -1,41 +1,14 @@
 Alexa Peek
 ==========
+I wanted to perform some HTML analysis of the top listed Alexa websites, but I haven't thought of anything terribly interesting to analyse yet.  At the moment, it grabs the top 10 listed Alexa websites and prints out their META description.
 
+Requirements
+------------
+* Requires nodejs, CoffeeScript & phantomjs installed
 
 Usage
 -----
-### Synchronous code block
-```coffeescript
-benchit.one ->
-	...
-# (will return elapsed time in milliseconds)
-```
-
-### Asynchronous code block
-```coffeescript
-benchit.one (done) ->
-	...
-	done() # call when finished
-, (elapsed) ->
-	console.log elapsed
-```
-
-### Multiple code blocks
-```coffeescript
-benchit.many
-	synchronousCode: ->
-		...
-
-	asynchronousCode: (done) ->
-		...
-		done() # call when finished
-, (name, elapsed) -> console.log "#{name} elapsed: #{elapsed}ms"
-
-###
-Output:
-synchronousCode elapsed: 100ms
-asynchronousCode elapsed: 200ms
-
-(note: 2nd parameter is optional)
-###
+```bash
+npm install
+coffee alexa-peek.coffee
 ```
